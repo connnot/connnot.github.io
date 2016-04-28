@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+    figure{
+      width:600px;
+      height:500px;
+      border:10px solid green;
+      box-shadow:0px 0px 15px 1px black;
+      overflow:hidden;
+      position:relative;
+    }
+    figure img{
+      width:700px;
+      margin:-60px;
+      transform:rotate(-20deg);
+      transition:all 1s;
+    }
+    figure:hover img{
+      transform:rotate(20deg);
+      cursor:pointer;
+    }
+    figure figcaption{
+      position:absolute;
+      z-index:3;
+      left:0;
+      bottom:0;
+      width:100%;
+      height:25px;
+      color:green;
+      font-weight: bold;
+      background-color:yellow;
+      text-align:center;
+      line-height:30px;
+      transition:color .5s,background-color .3s;
+    }
+    figure:hover figcaption{
+      color:transparent;
+      background-color:transparent;
+    }
+</style>
+<body>
+  <figure>
+    <figcaption>biu biu biu</figcaption>
+    <img src="http://art.china.cn/products/fujian/site8/20151103/d43d7e15520217a26cba5f.JPEG" alt="">
+  </figure>
+</body>
+</html>
