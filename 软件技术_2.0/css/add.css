@@ -1,0 +1,25 @@
+@media (min-width: 400px) {
+  .header {
+    height: 800px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    height: 800px;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    height: 980px;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    height: 1150px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+	.header{
+		height: 800px;
+	}
+}
